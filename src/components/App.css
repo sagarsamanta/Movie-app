@@ -1,0 +1,65 @@
+.Container{
+  display: flex;
+  flex-direction: column;
+}
+.AppName{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Header{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+}
+.SearchBox {
+  display: flex;
+  flex-direction: row;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 45%;
+  background-color: white;
+}
+.SearchIcon{
+  width: 30px;
+  height: 32px;
+}
+.MovieImage { 
+  width: 48px;
+  height: 48px;
+  margin: 15px;
+  border-radius: 30px;
+}
+.SearchInput {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+}
+.MovieListContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 25px;
+  justify-content: space-evenly;;
+}
+.msg_to_search{
+    font-size: 30px;
+    color: rgb(219, 219, 29);
+}
+.msg_not_found{
+    font-size: 30px;
+    color: red;
+}
+

@@ -3,7 +3,7 @@
 import { useState } from "react";
 // import Axios from "axios";
 import Movie from "./components/Movie";
-import "./components/App.css";
+import './css/App.css'
 import SelectedMovie from "./components/SelectedMovie";
 const App = () => {
   const [movieList, setMovieList] = useState([]);

@@ -1,5 +1,5 @@
 import React ,{useState,useEffect} from 'react';
-import './SelectedMovie.css'
+import '../css/SelectedMovie.css'
 const SelectedMovie = (props) => {
     const API_KEY="5b18b779"
     const [movieInfo, setMovieInfo] = useState();

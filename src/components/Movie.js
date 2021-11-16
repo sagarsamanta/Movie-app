@@ -1,5 +1,5 @@
 import React from "react";
-import "./Movie.css";
+import '../css/Movie.css'
 
 const Movie = (props) => {
   const { Title, Year, imdbID, Type, Poster } = props.movie;
